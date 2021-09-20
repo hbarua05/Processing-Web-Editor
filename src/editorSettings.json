@@ -1,0 +1,6 @@
+{
+    "mode": "java",
+    "theme": "iplastic",
+    "defaultValue": "float angle = PI/4;\nfloat len = 140;\n\nvoid setup() {\n  size(400, 400);\n}\n\nvoid draw() {\n  background(0);\n\n  pushMatrix();\n  translate(width/2, height);\n  stroke(255);\n  drawBranch(len, angle);\n  popMatrix();\n\n  angle += 0.04;\n\n}\n\nvoid drawBranch(float len, float angle) {\n  line(0, 0, 0, -len);\n\n  if (len > 2) {\n    translate(0, -len);\n    pushMatrix();\n    rotate(angle);\n    drawBranch(len * 0.6, angle);\n    popMatrix();\n\n    pushMatrix();\n    rotate(-angle);\n    drawBranch(len * 0.6, angle);\n    popMatrix();\n  }\n}",
+    "fontSize": 16
+}
