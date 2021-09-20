@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Processing-Web-Editor/static/css/main.6697c9a4.chunk.css",
+    "main.js": "/Processing-Web-Editor/static/js/main.ad239f00.chunk.js",
+    "main.js.map": "/Processing-Web-Editor/static/js/main.ad239f00.chunk.js.map",
+    "runtime-main.js": "/Processing-Web-Editor/static/js/runtime-main.cc192053.js",
+    "runtime-main.js.map": "/Processing-Web-Editor/static/js/runtime-main.cc192053.js.map",
+    "static/js/2.894ece7e.chunk.js": "/Processing-Web-Editor/static/js/2.894ece7e.chunk.js",
+    "static/js/2.894ece7e.chunk.js.map": "/Processing-Web-Editor/static/js/2.894ece7e.chunk.js.map",
+    "static/js/3.e4d694f0.chunk.js": "/Processing-Web-Editor/static/js/3.e4d694f0.chunk.js",
+    "static/js/3.e4d694f0.chunk.js.map": "/Processing-Web-Editor/static/js/3.e4d694f0.chunk.js.map",
+    "index.html": "/Processing-Web-Editor/index.html",
+    "static/css/main.6697c9a4.chunk.css.map": "/Processing-Web-Editor/static/css/main.6697c9a4.chunk.css.map",
+    "static/js/2.894ece7e.chunk.js.LICENSE.txt": "/Processing-Web-Editor/static/js/2.894ece7e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc192053.js",
+    "static/js/2.894ece7e.chunk.js",
+    "static/css/main.6697c9a4.chunk.css",
+    "static/js/main.ad239f00.chunk.js"
+  ]
+}
