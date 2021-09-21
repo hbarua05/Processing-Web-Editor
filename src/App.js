@@ -17,7 +17,7 @@ function App() {
         keyboardHandler: localStorage.getItem("keyboardHandler") || "vscode",
     });
     let themeSettingsHook = useDarkMode("light");
-    useScript("/processing/processing.js");
+    useScript(process.env.PUBLIC_URL + "/processing/processing.js");
 
     useEffect(() => {
         setTimeout(() => {

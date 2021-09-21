@@ -1,5 +1,4 @@
-import React from "react";
-import { createRef } from "react/cjs/react.development";
+import React, { createRef } from "react";
 import Editor from "../components/Editor/Editor";
 import Canvas from "../components/Canvas/Canvas";
 import EditorControls from "../components/Editor/EditorControls";
